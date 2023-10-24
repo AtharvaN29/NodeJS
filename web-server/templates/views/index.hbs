@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>use this site to know your weather</p>
+        <form>
+            <input placeholder="location">
+            <button>search</button>
+        </form>
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+    </div>
+   
+    {{>footer}}
+    <script src="/javascript/app.js"></script>
+</body>
+</html> 
